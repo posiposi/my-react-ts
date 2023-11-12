@@ -1,6 +1,7 @@
 import logo from './logo.svg'
 import './App.css'
 import MyHello from './MyHello'
+import StateBasic from './Components/features/StateBasic'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           Learn React
         </a>
         <MyHello myName="鈴木" />
+        <StateBasic init={0} />
       </header>
     </div>
   )
