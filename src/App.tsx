@@ -1,6 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.css'
+import StateParent from './Components/ui/StateParent'
+import EventMouse from './Components/features/EventMouse'
 
 function App() {
   return (
@@ -18,9 +19,16 @@ function App() {
         >
           Learn React
         </a>
+        <StateParent />
+        <EventMouse
+          beforeSrc={'/images/CsURw5sUMAAsblw.jpg'}
+          afterSrc={'/images/IMG_3537.JPG'}
+          manImage={'/images/freeFace.jpeg'}
+          alt={'マウスイベント画像'}
+        />
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
