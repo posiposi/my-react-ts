@@ -2,6 +2,7 @@ import logo from './logo.svg'
 import './App.css'
 import MyHello from './MyHello'
 import StateBasic from './Components/features/StateBasic'
+import StateParent from './Components/ui/StateParent'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         </a>
         <MyHello myName="鈴木" />
         <StateBasic init={0} />
+        <StateParent />
       </header>
     </div>
   )

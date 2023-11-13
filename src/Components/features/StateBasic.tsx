@@ -2,7 +2,10 @@ import { useState } from 'react'
 
 const StateBasic = ({ init }: { init: number }) => {
   const [count, setCount] = useState(init)
-  const handleClick = () => setCount(count + 1)
+  const handleClick = () => {
+    setCount((count) => count + 1)
+    setCount((count) => count + 1)
+  }
 
   return (
     <>
