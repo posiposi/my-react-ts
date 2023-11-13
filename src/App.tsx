@@ -1,8 +1,7 @@
 import logo from './logo.svg'
 import './App.css'
-import MyHello from './MyHello'
-import StateBasic from './Components/features/StateBasic'
 import StateParent from './Components/ui/StateParent'
+import EventMouse from './Components/features/EventMouse'
 
 function App() {
   return (
@@ -20,9 +19,13 @@ function App() {
         >
           Learn React
         </a>
-        <MyHello myName="鈴木" />
-        <StateBasic init={0} />
         <StateParent />
+        <EventMouse
+          beforeSrc={'/images/CsURw5sUMAAsblw.jpg'}
+          afterSrc={'/images/IMG_3537.JPG'}
+          manImage={'/images/freeFace.jpeg'}
+          alt={'マウスイベント画像'}
+        />
       </header>
     </div>
   )
