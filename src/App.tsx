@@ -3,6 +3,7 @@ import './App.css'
 import StateParent from './Components/ui/StateParent'
 import EventMouse from './Components/features/EventMouse'
 import { ChakraProvider } from '@chakra-ui/react'
+import StateForm from './Components/ui/StateForm'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             Learn React
           </a>
           <StateParent />
+          <StateForm />
           <EventMouse
             beforeSrc={'/images/CsURw5sUMAAsblw.jpg'}
             afterSrc={'/images/IMG_3537.JPG'}
